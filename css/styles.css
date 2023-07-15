@@ -6,23 +6,25 @@
   text-decoration: none;
 }
 
+body {
+    font-family: Roboto; sans-serif;
+}
+
 /* ======= HEADER ======= */
 
 .menu-link {
   color: #2e2f42;
-  font-family: Roboto; sans-serif;
   font-weight: 500;
   font-size: 16px;  
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
 .contact {
     color:#434455;
-    font-family: Roboto; sans-serif;
     font-weight: 400;
     font-size: 16px;    
-    line-height: 1.5; /* 150% */
+    line-height: 1.5;
     letter-spacing: 0.32px;
 }
 
@@ -36,9 +38,8 @@
 .main-title {
     /* color:#FFF; */
     text-align: center;
-    font-family: Roboto; sans-serif;
     font-size: 56px;
     font-weight: 700;
-    line-height: 1.07; /* 107.143% */
+    line-height: 1.07;
     letter-spacing: 1.12px;
 }
