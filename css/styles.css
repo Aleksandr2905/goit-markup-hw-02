@@ -7,39 +7,52 @@
 }
 
 body {
-    font-family: Roboto; sans-serif;
+  font-family: Roboto, sans-serif;
+  color: #2e2f42;
 }
 
 /* ======= HEADER ======= */
 
-.menu-link {
+.logo {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.67;
   color: #2e2f42;
+}
+
+.logo-accent {
+  color: #4d5ae5;
+}
+
+.site-nav .link {
+  color: #2e2f42;
+  font-size: 16px;
   font-weight: 500;
-  font-size: 16px;  
   line-height: 1.5;
-  letter-spacing: 0.32px;
 }
 
-.contact {
-    color:#434455;
-    font-weight: 400;
-    font-size: 16px;    
-    line-height: 1.5;
-    letter-spacing: 0.32px;
+.nav-contact .link {
+  color: #434455;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
-.contact:hover,
-.contact:focus {
-    color:blue
+.nav-contact .link:hover,
+.nav-contact .link:focus {
+  color: #e7e9fc;
 }
 
 /* ======= /HEADER ======= */
 
 .main-title {
-    /* color:#FFF; */
-    text-align: center;
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 1.07;
-    letter-spacing: 1.12px;
+  /* color:#FFF; */
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
 }
