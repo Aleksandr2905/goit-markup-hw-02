@@ -13,7 +13,7 @@ body {
 
 /* ======= HEADER ======= */
 
-.logo {
+.header-logo {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
@@ -48,6 +48,8 @@ body {
 
 /* ======= /HEADER ======= */
 
+/* ======= HERO ======= */
+
 .hero-title {
   color: #fff;
   text-align: center;
@@ -57,6 +59,8 @@ body {
   letter-spacing: 1.12px;
 }
 
+/* ======= /HERO ======= */
+
 .section-title {
   text-align: center;
   font-size: 36px;
@@ -64,4 +68,38 @@ body {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+}
+
+.section-subject {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.section-subtitle {
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+/* ======= SITE FOOTER =======*/
+
+.footer-logo {
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.67;
+  color: #f4f4fd;
+}
+
+.footer-text {
+  color: #f4f4fd;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
