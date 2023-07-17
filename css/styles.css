@@ -6,7 +6,8 @@
 
 body {
   font-family: Roboto, sans-serif;
-  color: var(--primary-text-color);
+  color: var(--secondary-text-color);
+  background-color: #fff;
 }
 
 .list {
