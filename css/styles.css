@@ -4,17 +4,17 @@
   --accent-color: #4d5ae5;
 }
 
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--primary-text-color);
+}
+
 .list {
   list-style: none;
 }
 
 .link {
   text-decoration: none;
-}
-
-body {
-  font-family: Roboto, sans-serif;
-  color: var(--primary-text-color);
 }
 
 /* ======= HEADER ======= */
