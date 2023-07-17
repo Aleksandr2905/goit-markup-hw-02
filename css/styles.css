@@ -1,3 +1,9 @@
+:root {
+  --primary-text-color: #2e2f42;
+  --secondary-text-color: #434455;
+  --accent-color: #4d5ae5;
+}
+
 .list {
   list-style: none;
 }
@@ -8,7 +14,7 @@
 
 body {
   font-family: Roboto, sans-serif;
-  color: #2e2f42;
+  color: var(--primary-text-color);
 }
 
 /* ======= HEADER ======= */
@@ -18,22 +24,22 @@ body {
   font-size: 18px;
   font-weight: 800;
   line-height: 1.67;
-  color: #2e2f42;
+  color: var(--primary-text-color);
 }
 
 .logo-accent {
-  color: #4d5ae5;
+  color: var(--accent-color);
 }
 
 .site-nav .link {
-  color: #2e2f42;
+  color: var(--primary-text-color);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
 }
 
 .nav-contact .link {
-  color: #434455;
+  color: var(--secondary-text-color);
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -59,6 +65,19 @@ body {
   letter-spacing: 1.12px;
 }
 
+.button {
+  color: #fff;
+  background-color: var(--accent-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.64px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
 /* ======= /HERO ======= */
 
 .section-title {
@@ -78,7 +97,7 @@ body {
 }
 
 .section-subtitle {
-  color: #434455;
+  color: var(--secondary-text-color);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
