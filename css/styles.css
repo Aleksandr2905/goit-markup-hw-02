@@ -78,7 +78,7 @@ body {
   cursor: pointer;
 }
 
-/* ======= /HERO ======= */
+/* ======= SECTION ======= */
 
 .section-title {
   text-align: center;
@@ -121,4 +121,21 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+}
+
+/* ======= PORTFOLIO ======= */
+.btn {
+  color: var(--accent-color);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  background: #f4f4fd;
+}
+
+.btn:hover,
+.btn:focus {
+  color: #fff;
+  background: #404bbf;
 }
