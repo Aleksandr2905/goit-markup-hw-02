@@ -169,6 +169,7 @@ body {
 
 /* ======= PORTFOLIO ======= */
 .btn {
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   font-size: 16px;
   font-weight: 500;
