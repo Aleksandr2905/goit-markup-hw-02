@@ -26,7 +26,7 @@ body {
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--accent-color);
 }
@@ -39,6 +39,7 @@ body {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--secondary-text-color);
 }
 
@@ -52,7 +53,7 @@ body {
 }
 
 .nav-contact .link {
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -131,6 +132,10 @@ body {
 
 .team {
   background-color: #f4f4fd;
+}
+
+.section-list {
+  background-color: #ffffff;
 }
 
 /* ======= SITE FOOTER =======*/
