@@ -26,7 +26,7 @@ body {
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
   color: var(--accent-color);
 }
@@ -42,23 +42,36 @@ body {
   line-height: 1.5;
 }
 
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #404bbf;
+}
+
+.address {
+  font-style: normal;
+}
+
 .nav-contact .link {
   color: var(--primary-text-color);
   font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .nav-contact .link:hover,
 .nav-contact .link:focus {
-  color: #e7e9fc;
+  color: #404bbf;
 }
 
 /* ======= /HEADER ======= */
 
 /* ======= HERO ======= */
+
+.hero {
+  background-color: var(--secondary-text-color);
+}
 
 .hero-title {
   color: var(--background-primary-color);
