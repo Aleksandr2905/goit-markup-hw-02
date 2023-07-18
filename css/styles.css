@@ -36,10 +36,10 @@ body {
 }
 
 .site-nav .link {
-  color: var(--secondary-text-color);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
+  color: var(--secondary-text-color);
 }
 
 .site-nav .link:hover,
@@ -52,12 +52,12 @@ body {
 }
 
 .nav-contact .link {
-  color: var(--primary-text-color);
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--primary-text-color);
 }
 
 .nav-contact .link:hover,
@@ -74,21 +74,27 @@ body {
 }
 
 .hero-title {
-  color: var(--background-primary-color);
   text-align: center;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
+  color: var(--background-primary-color);
 }
 
 .button {
-  color: var(--background-primary-color);
-  background-color: var(--accent-color);
+  font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.64px;
+  color: var(--background-primary-color);
+  background-color: var(--accent-color);
+}
+
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
 }
 
 .pointer {
@@ -104,6 +110,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  color: var(--secondary-text-color);
 }
 
 .section-subject {
@@ -111,14 +118,19 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  color: var(--secondary-text-color);
 }
 
 .section-subtitle {
-  color: var(--secondary-text-color);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  color: var(--primary-text-color);
+}
+
+.team {
+  background-color: #f4f4fd;
 }
 
 /* ======= SITE FOOTER =======*/
@@ -132,23 +144,23 @@ body {
 }
 
 .footer-text {
-  color: #f4f4fd;
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  color: #f4f4fd;
 }
 
 /* ======= PORTFOLIO ======= */
 .btn {
-  color: var(--accent-color);
   text-align: center;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
   background: #f4f4fd;
+  color: var(--accent-color);
 }
 
 .btn:hover,
